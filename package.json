@@ -1,22 +1,22 @@
 {
-  "name": "@oneverseswap/community-token-list",
+  "name": "@donkswap/community-token-list",
   "version": "2.6.1",
   "description": "◦ The Venomswap default token list",
-  "main": "build/oneverseswap-community.tokenlist.json",
+  "main": "build/donkswap-community.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/oneverseswap-community.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/donkswap-community.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/oneverseswap-community.tokenlist.json"
+    "build/donkswap-community.tokenlist.json"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VenomProtocol/venomswap-community-token-list.git"
   },
   "keywords": [
-    "venomswap",
+    "donkswap",
     "community",
     "token",
     "list"
