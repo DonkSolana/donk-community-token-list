@@ -1,6 +1,6 @@
 {
   "name": "@donkswap/community-token-list",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "◦ The Donkswap default token list",
   "main": "build/donkswap-community.tokenlist.json",
   "scripts": {
